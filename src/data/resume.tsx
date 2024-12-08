@@ -2,13 +2,13 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
+  name: "Huadi Wang",
+  initials: "HW",
+  url: "https://huadiwang.dev",
+  location: "Cambridge, UK",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Researcher and Software Engineer",
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
@@ -72,14 +72,14 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
+      company: "OKX",
       href: "https://atomic.finance",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Software Engineer II",
+      logoUrl: "/okx.png",
+      start: "Jan 2023",
+      end: "Jun 2024",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
@@ -146,36 +146,28 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      school: "University of Cambridge",
+      href: "https://www.cam.ac.uk/",
+      degree: "MPhil in Advanced Computer Science",
+      logoUrl: "/cambridge.jpg",
+      start: "2024",
+      end: "2025",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      school: "University of California, Berkeley",
+      href: "https://www.berkeley.edu/",
+      degree: "Bachelor of Arts in Computer Science",
+      logoUrl: "/berkeley.webp",
+      start: "2019",
+      end: "2022",
     },
     {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "University of California, Berkeley",
+      href: "https://www.berkeley.edu/",
+      degree: "Bachelor of Science in Conservation and Resource Studies",
+      logoUrl: "/berkeley.webp",
+      start: "2019",
+      end: "2022",
     },
   ],
   projects: [
